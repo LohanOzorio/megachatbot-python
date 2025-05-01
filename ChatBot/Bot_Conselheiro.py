@@ -1,7 +1,7 @@
 print("Olá {nome}, você entrou no chat certo! Serei seu conselheiro! Aproveitando...")
 bairro = str(input("Qual bairro você mora? "))
 
-print("Uau, eu tambem moro no {bairro}! Mas eu estou aqui para lhe ajudar! Então vamos lá.")
+print("Uau, eu tambem moro no {}! Mas eu estou aqui para lhe ajudar! Então vamos lá.".format(bairro))
 
 while True:
   print("-=" * 20)
@@ -73,4 +73,3 @@ while True:
       print("Voltando...")
   else:
     print("Notei o tempo de ausencia e por isso encerrei o chamado!")
-    
