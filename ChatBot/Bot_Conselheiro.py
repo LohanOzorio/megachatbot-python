@@ -73,25 +73,4 @@ while True:
       print("Voltando...")
   else:
     print("Notei o tempo de ausencia e por isso encerrei o chamado!")
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
