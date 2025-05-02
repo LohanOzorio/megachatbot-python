@@ -14,15 +14,15 @@ while True:
     print("1º Passo: Curso Em Vídeo:\nLink: https://www.cursoemvideo.com/ \nPython Mundo 1\nPython Mundo 2\nPython Mundo 3")
     print("Aprendeu bem a lógica da coisa? Aprendeu mesmo? Então ta na hora de escolher a linguagem.\nSupunhetamos que você escolheu Java.\n")
     print("2º Passo: Curso Em Vídeo: Link https://www.cursoemvideo.com/ \nJava (POO)")
-    print("Até aqui tá tudo ótimo. Se aperfeçoe e vamos para o proximo nível! O intermediário lhe espera.")
+    print("Até aqui tá tudo ótimo. Se aperfeçoe e vamos para o proximo nível! O intermediário lhe espera.\n")
   elif nivel_Formacao ==2:
-    print("Tá na hora de aprofundar mais.")
-    print("1º Passo: Curso Em Vídeo: Link: https://www.cursoemvideo.com/\n Banco de Dados -> MySQL")
-    print("2º Passo: Curso Em Vídeo: Link: https://www.cursoemvideo.com/\n Git e GitHub")
+    print("Tá na hora de aprofundar mais.\n")
+    print("1º Passo: Curso Em Vídeo: Link: https://www.cursoemvideo.com/\nBanco de Dados -> MySQL")
+    print("2º Passo: Curso Em Vídeo: Link: https://www.cursoemvideo.com/\nGit e GitHub")
     print("3º Passo: YouTube (Fiasco): Link: https://www.youtube.com/watch?v=n8_qrrc8WN4 \nSpring Boot -> FrameWork Java")
-    print("Foque e aprenda tudo isso. Após já pode aplicar pra vagas de estágio. 🚀🚀")
+    print("Foque e aprenda tudo isso. Após já pode aplicar pra vagas de estágio. 🚀🚀\n")
   elif nivel_Formacao==3:
-    print("Encontre seus defeitos e efetue a correção e nunca pare de estudar! A perfeição e experiência vem com o tempo")
+    print("Encontre seus defeitos e efetue a correção e nunca pare de estudar! A perfeição e experiência vem com o tempo\n")
   elif nivel_Formacao ==4:
     break
 
