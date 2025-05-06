@@ -6,7 +6,7 @@ def iniciar():
           f'É um prazer, {nome}!\n'
           'Como está seu humor?')
 
-    humor = int(input('---------------------------------------------------------\n'
+    humor = int(input('---------------------------------------------------------\n' 
                       '1. Estou cansado e só quero relaxar\n'
                       '2. Quero me divertir e estar com amigos\n'
                       '3. Estou cheio de energia e quero uma aventura\n'

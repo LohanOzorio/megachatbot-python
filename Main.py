@@ -9,7 +9,7 @@ def exibir_menu():
   print("6 - EcoBot")
   print("0 - Sair")
 
-def main():
+def main(): 
   while True:
     exibir_menu()
     escolha = input("Digite o número do bot: ")
