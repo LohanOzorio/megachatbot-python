@@ -1,10 +1,3 @@
-import Bot_Conselheiro
-import Bot_Treinador
-import Bot_Dialogo_Passado
-import Bot_Mentor
-import Bot_Quebrada
-import Bot_EcoBot
-
 def exibir_menu():
   print("\n🤖 Bem-vindo ao Centro de Chatbots!")
   print("Qual bot você deseja acessar?")
@@ -21,16 +14,22 @@ def main():
     exibir_menu()
     escolha = input("Digite o número do bot: ")
     if escolha == "1":
+      import Bot_Conselheiro
       Bot_Conselheiro.iniciar()
     elif escolha == "2":
+      import Bot_Treinador
       Bot_Treinador.iniciar()
     elif escolha == "3":
+      import Bot_Dialogo_Passado
       Bot_Dialogo_Passado.iniciar()
     elif escolha == "4":
+      import Bot_Mentor
       Bot_Mentor.iniciar()
     elif escolha == "5":
+      import Bot_Quebrada
       Bot_Quebrada.iniciar()
     elif escolha == "6":
+      import Bot_EcoBot
       Bot_EcoBot.iniciar()
     elif escolha == "0":
       print("Encerrando... 👋")
@@ -41,10 +40,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-
-
-
-
-    
